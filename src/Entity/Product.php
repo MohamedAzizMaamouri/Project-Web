@@ -22,7 +22,7 @@ class Product
     #[ORM\Column(type: 'text')]
     private string $description;
 
-    #[ORM\Column(type: 'decimal', precision: 10, scale: 2)]
+    #[ORM\Column(type: 'float', precision: 10, scale: 2)]
     private float $price;
 
     #[ORM\Column(type: 'string', length: 255, nullable: true)]
